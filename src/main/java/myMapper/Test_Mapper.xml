@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="myMapper.Test_Mapper">
+
+	<select id="select_fenlei1" resultType="myBean.T_MALL_CLASS_1">
+		select * from
+		t_mall_class_1
+	</select>
+
+	<select id="select_class_2" resultType="int">
+		select id from
+		t_mall_class_2
+	</select>
+
+	<select id="select_attr_by_flbh2" parameterType="int">
+		select id from
+		t_mall_attr where flbh2 = #{flbh2}
+	</select>
+
+</mapper>
+
+
+
+

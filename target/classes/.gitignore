@@ -1,0 +1,17 @@
+/META-INF/
+/dbConfig.properties
+/example/
+/myBatisTest/
+/myBean/
+/myMapper/
+/myUserWebService/
+/myUtil/
+/myWebService/
+/mybatis-config.xml
+/properties/
+/test_email/
+/test_md5/
+/test_phone/
+/uuid/
+/ws_login/
+/ws_se_util/
